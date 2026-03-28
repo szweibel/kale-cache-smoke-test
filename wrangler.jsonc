@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "kale-cache-smoke-test",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-03-26",
+  "kv_namespaces": [{ "binding": "CACHE", "id": "local-kale-cache-smoke-test-cache" }]
+}

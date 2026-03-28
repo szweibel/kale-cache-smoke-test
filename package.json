@@ -1,0 +1,16 @@
+{
+  "name": "kale-cache-smoke-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.12.9"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2",
+    "wrangler": "^4.77.0"
+  }
+}
