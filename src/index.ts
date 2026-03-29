@@ -39,3 +39,4 @@ app.get("/api/cache-smoke", async (c) => {
 });
 
 export default app;
+this is not valid typescript
