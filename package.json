@@ -3,7 +3,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node -e \"setTimeout(() => { console.log('slow build complete'); }, 30000)\"",
     "dev": "wrangler dev",
     "check": "tsc --noEmit"
   },
